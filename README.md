@@ -20,9 +20,9 @@ The pistachio images in this dataset are all a uniform size of 600x600 pixels an
 While the tuned model performed better than the baseline, the overall results were not optimal. The FID score of the tuned model was lower, and the images it produced were more realistic. However, the models might need further refinement.
 
 ## 🔮 Possible Future Works
-1.**More Complex Model Architecture**: Upgrade the current model to more advanced architectures like a Deep Convolutional GAN (DCGAN) or Wasserworth GAN (WGAN) to improve training stability and image quality.\
-2. **Larger Dataset**: Using a larger dataset would provide the model with more diverse examples to learn from. This helps prevent overfitting and allows the generator to create higher-quality images that aren't just memorizing the limited training data.\
-3. **More Training Epochs**: Increasing the number of epochs would allow the model to train for a longer duration, helping it converge to a more optimal state.\
+1. **More Complex Model Architecture**: Upgrade the current model to more advanced architectures like a Deep Convolutional GAN (DCGAN) or Wasserworth GAN (WGAN) to improve training stability and image quality.
+2. **Larger Dataset**: Using a larger dataset would provide the model with more diverse examples to learn from. This helps prevent overfitting and allows the generator to create higher-quality images that aren't just memorizing the limited training data.
+3. **More Training Epochs**: Increasing the number of epochs would allow the model to train for a longer duration, helping it converge to a more optimal state.
 4. **Hyperparameter Tuning**: Fine-tuning the hyperparameters, such as learning rates and batch sizes, could further optimize the model's performance. Systematic approaches like Grid Search or Random Search can be used to find the best combination of values that maximizes the model's effectiveness.
 
 ## 👨‍💻 Author
